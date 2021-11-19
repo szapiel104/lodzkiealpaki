@@ -25,8 +25,8 @@
 
       </div>
       <div class="col-12 col-md-6">
-        <img src="~assets/img/erik-dungan-lNUi7W4iwok-unsplash.jpg" alt="" class="img-fluid"
-             style="border-radius: 10px">
+        <img src="~assets/img/alpaki01.jpg" alt="" class="img-fluid"
+             style="border-radius: 10px; max-height: 450px;width: 100%; object-fit: cover;">
       </div>
     </div>
     <div class="row my-5 d-flex justify">

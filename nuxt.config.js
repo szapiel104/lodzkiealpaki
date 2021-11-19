@@ -35,9 +35,15 @@ export default {
   modules: [
     // Doc: https://bootstrap-vue.js.org/docs/
     "bootstrap-vue/nuxt",
+    // Simple usage
+    'nuxt-leaflet',
+
+    // With options
+    ['nuxt-leaflet', { /* module options */ }],
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    vendor: ["vue2-google-maps"]
   }
 }

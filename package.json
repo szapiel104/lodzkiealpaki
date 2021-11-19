@@ -11,7 +11,11 @@
   "dependencies": {
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.9.1",
-    "nuxt": "^2.15.3"
+    "leaflet": "^1.7.1",
+    "nuxt": "^2.15.3",
+    "nuxt-leaflet": "0.0.25",
+    "vue2-google-maps": "^0.10.7",
+    "vue2-leaflet": "^2.7.1"
   },
   "devDependencies": {
     "fibers": "^5.0.0",
