@@ -1,64 +1,46 @@
 <template>
   <div class="container my-5">
-    <h3>Miłość do <span style="color: #e0b8aa">alpak</span></h3>
+    <h1>Miłość do <span style="color: #e0b8aa">alpak</span></h1>
     <hr/>
     <p>
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam maximus dui a elit pulvinar tristique. Morbi sit
-      amet justo in mauris euismod pretium sit amet nec lorem. Praesent commodo vel enim eu ultricies. Aliquam sed
-      tortor nisl. Quisque convallis ultricies mi, sed tristique justo malesuada eget. Cras vel enim sed dui hendrerit
-      malesuada. Duis laoreet lacus risus, et pretium neque gravida quis.
+      Łódzkie Alpaki to Lenek, Puszkin, Vito i Draco - cztery wyjątkowe alpaki. Dlaczego wyjątkowe?
     <div class="about-flex-number">
       <img class="mr-3" src="~assets/svg/1.svg"/>
-      <p class="mb-0">
-        <b>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam maximus dui a elit pulvinar tristique. Morbi
-          sit amet justo in mauris euismod pretium sit amet nec lorem.</b>
-        <br/>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam maximus dui a elit pulvinar tristique. Morbi sit
-        amet justo in mauris euismod pretium sit amet nec lorem.
+      <p class="mb-2">
+        <b>Tworząc</b> nasze stado postawiliśmy na jakość zwierząt.
       </p>
     </div>
     <div class="about-flex-number mt-4">
       <img class="mr-3" src="~assets/svg/2.svg"/>
-      <p class="mb-0">
-        <b> Ważni są dla nas ludzie!</b>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam maximus dui a elit pulvinar tristique. Morbi sit
-        amet justo in mauris euismod pretium sit amet nec lorem. Praesent commodo vel enim eu ultricies. Aliquam sed
-        tortor nisl. Quisque convallis ultricies mi, sed tristique justo malesuada eget. Cras vel enim sed dui hendrerit
-        malesuada. Duis laoreet lacus risus, et pretium neque gravida quis.
+      <p class="mb-2">
+        <b>Nasze</b> chłopaki to alpaki wyselekcjonowane z bardzo dobrych, polskich hodowli, z predyspozycjami do pracy z ludźmi.
       </p>
     </div>
     <div class="about-flex-number mt-4">
       <img class="mr-3" src="~assets/svg/3.svg"/>
-      <p class="mb-0">
-        <b>Pływają u nas młodsze rodzeństwa dzieci</b>,
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam maximus dui a elit pulvinar tristique. Morbi sit
-        amet justo in mauris euismod pretium sit amet nec lorem. Praesent commodo vel enim eu ultricies. Aliquam sed
-        tortor nisl. Quisque convallis ultricies mi, sed tristique justo malesuada eget. Cras vel enim sed dui hendrerit
-        malesuada. Duis laoreet lacus risus, et pretium neque gravida quis.
+      <p class="mb-2">
+        <b>Nie </b>każda alpaka nadaje się na ludzkiego towarzysza.
       </p>
     </div>
-    <div class="mt-4">
-      <p>
+    <div class="mt-4" >
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam maximus dui a elit pulvinar tristique. Morbi sit
-        amet justo in mauris euismod pretium sit amet nec lorem. Praesent commodo vel enim eu ultricies. Aliquam sed
-        tortor nisl. Quisque convallis ultricies mi, sed tristique justo malesuada eget. Cras vel enim sed dui hendrerit
-        malesuada. Duis laoreet lacus risus, et pretium neque gravida quis.
-        <br class="d-block d-md-none"/>
-        <br class="d-block d-md-none"/>
-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam maximus dui a elit pulvinar tristique. Morbi sit
-        amet justo in mauris euismod pretium sit amet nec lorem. Praesent commodo vel enim eu ultricies. Aliquam sed
-        tortor nisl. Quisque convallis ultricies mi, sed tristique justo malesuada eget. Cras vel enim sed dui hendrerit
-        malesuada. Duis laoreet lacus risus, et pretium neque gravida quis.
-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam maximus dui a elit pulvinar tristique. Morbi sit
-        amet justo in mauris euismod pretium sit amet nec lorem. Praesent commodo vel enim eu ultricies. Aliquam sed
-        tortor nisl. Quisque convallis ultricies mi, sed tristique justo malesuada eget. Cras vel enim sed dui hendrerit
-        malesuada. Duis laoreet lacus risus, et pretium neque gravida quis.
-      </p>
+      <div class="row my-5">
+        <div class="col-12 col-md-6">
+          <img src="~assets/img/alpaki_02.jpg" alt="" class="img-fluid"
+               style="border-radius: 10px; max-height: 450px;width: 100%; object-fit: cover;">
+        </div>
+        <div class="col-12 col-md-6">
+          <h2 class="mt-5">Nasza misja</h2>
+          <hr/>
+          Sprawić, by ludzie dużo się uśmiechali. &#128512;<br/>
+          Uśmiech to ogromna energia.
+          <br >
+          <br/>
+          <p>
+            Odpowiednio przeprowadzona socjalizacja i czas, <br class="d-none d-lg-block"/>który wciąż poświęcamy chłopakom przygotował ich do spotkań z Wami.
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -72,14 +54,14 @@ export default {
   },
   head() {
     return {
-      title: 'O nas - Pływanie na zdrowie',
+      title: 'O nas - Łódzkie alpaki',
       meta: [
         {charset: 'utf-8'},
         {name: 'viewport', content: 'width=device-width, initial-scale=1'},
         {
           hid: 'description',
           name: 'description',
-          content: 'Pływanie na zdrowie'
+          content: 'Łódzkie alpaki'
         }
       ],
     }

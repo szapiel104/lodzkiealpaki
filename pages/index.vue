@@ -1,13 +1,17 @@
 <template>
   <div class="container">
     <div class="row my-5 d-flex justify">
+
+      <div class="col-12 col-md-6">
+        <img src="~assets/img/alpaki_03.jpg" alt="" class="img-fluid"
+             style="border-radius: 10px; max-height: 450px;width: 100%; object-fit: cover;">
+      </div>
       <div class="col-12 col-md-6 my-auto">
         <h1>Łódzkie alpaki</h1>
-        <p class="content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla leo eu sapien
-          aliquam, hendrerit facilisis libero pretium.</p>
+        <p class="content-text">to Lenek, Puszkin, Vito i Draco - cztery wyjątkowe alpaki. </p>
         <div class="row">
           <div class="col-12 col-md-4">
-            <b-button size="sm" class="my-2 a-link-btn normal" type="primary" variant="primary" to="/harmonogram">
+            <b-button size="sm" class="my-2 a-link-btn normal" type="primary" variant="primary" to="/oferta">
               <span class="mr-1">Oferta</span>
               <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
                    class="bi bi-arrow-right-short" viewBox="0 0 16 16">
@@ -24,20 +28,15 @@
         </div>
 
       </div>
-      <div class="col-12 col-md-6">
-        <img src="~assets/img/alpaki01.jpg" alt="" class="img-fluid"
-             style="border-radius: 10px; max-height: 450px;width: 100%; object-fit: cover;">
-      </div>
     </div>
     <div class="row my-5 d-flex justify">
       <div class="col-12">
         <h1 class="mb-3">Znajdź nas</h1>
         <div id="map-wrap" style="height: 600px">
           <no-ssr>
-            <l-map :zoom=13 :center="[51.7034009,19.4283212]">
+            <l-map :zoom=13 :center="[51.6932394,19.4031224]">
               <l-tile-layer url="http://{s}.tile.osm.org/{z}/{x}/{y}.png"></l-tile-layer>
-              <l-marker :lat-lng="[51.7034009,19.4283212]"><l-popup><a href="#">Lokalizacja (link do google maps)</a></l-popup></l-marker>
-              <l-marker :lat-lng="[51.6934001,19.4283212]"><l-popup><a href="#">Lokalizacja (link do google maps)</a></l-popup></l-marker>
+              <l-marker :lat-lng="[51.6932394,19.4031224]"><l-popup><a href="https://www.google.pl/maps/place/Wsp%C3%B3lna+12A,+95-054+Ksawer%C3%B3w/@51.693102,19.4008092,741m/data=!3m1!1e3!4m5!3m4!1s0x471a35d346fe9a33:0x9921f674dd8e6ff7!8m2!3d51.693102!4d19.4029979" target="_blank">Przejdź do lokalizacji</a></l-popup></l-marker>
             </l-map>
           </no-ssr>
         </div>

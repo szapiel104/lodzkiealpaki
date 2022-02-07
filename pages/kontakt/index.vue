@@ -14,10 +14,14 @@
           <h1>Łódzkie alpaki</h1>
         </b-card>
         <b-card class="mt-5">
-          <b>Telefon</b><br/> +48 000 000 000
+          <b>Telefon</b><br/> +48 515 605 345
           <br/>
           <br/>
-          <b>E-mail</b><br/> loremipsum@lorem.pl
+          <b>Adres</b><br/>
+          ul. Wspólna 12A,<br/> Ksawerów -  1,5km od Ikei.
+          <br/>
+          <br/>
+          <b>E-mail</b><br/> lodzkiealpaki@gmail.com
         </b-card>
       </div>
     </div>
@@ -35,14 +39,14 @@ export default {
   },
   head() {
     return {
-      title: 'Kontakt - Pływanie na zdrowie',
+      title: 'Kontakt - Łódzkie alpaki',
       meta: [
         {charset: 'utf-8'},
         {name: 'viewport', content: 'width=device-width, initial-scale=1'},
         {
           hid: 'description',
           name: 'description',
-          content: 'Pływanie na zdrowie'
+          content: 'Łódzkie alpaki'
         }
       ],
     }
