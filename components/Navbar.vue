@@ -9,20 +9,14 @@
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
         <b-collapse id="nav-collapse" is-nav>
-          <b-navbar-nav class="ml-auto">
+          <b-navbar-nav class="ml-auto my-3 my-lg-0">
             <b-nav-item class="a-link-menu" to="/">Strona główna</b-nav-item>
             <b-nav-item class="a-link-menu" to="/o-nas">O nas</b-nav-item>
-            <b-nav-item class="a-link-menu" to="/oferta">Oferta</b-nav-item>
             <b-nav-item class="a-link-menu" to="/kontakt">Kontakt</b-nav-item>
-            <b-button size="sm" class="my-5 my-lg-2 ml-lg-5 a-link-btn normal" type="primary" variant="primary"
-                      to="/harmonogram">
-              <span class="mr-1">Harmonogram</span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
-                   class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                <path fill-rule="evenodd"
-                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
-              </svg>
-            </b-button>
+            <b-nav-item class="my-3 my-lg-2 ml-lg-3 a-link-btn a-link-menu"
+                      to="/oferta">
+              <span class="" style="color: white !important;">Oferta</span>
+            </b-nav-item>
           </b-navbar-nav>
         </b-collapse>
       </div>
@@ -32,10 +26,16 @@
 <style lang="scss">
 .logo-navbar {
   max-width: 120px;
+  @media(max-width: 992px){
+    max-width: 105px;
+  }
   position: absolute;
   top: -15px;
 }
-
+.a-link-btn .nav-link{
+  width: 100%;
+  text-align: center;
+}
 .navbar-pos {
   height: 80px;
 }
@@ -49,7 +49,7 @@
   }
   background-color: #fff !important;
   border-bottom: 1px solid #f2f6fc;
-  padding: 1.3rem 0;
+  padding: 1rem 0;
 
   .a-link-menu a {
     font-size: 17px;
@@ -81,7 +81,7 @@
   #nav-collapse {
     position: absolute;
     width: 100%;
-    top: 100px;
+    top: 67px;
     background: white;
     left: 0px;
     padding: 0 20px;

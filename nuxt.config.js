@@ -9,7 +9,8 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
-      { hid: 'robots', name: 'robots', content: 'noindex, nofollow' }
+      { hid: 'keywords', name: 'keywords', content: 'łódzki alpaki, alpaki głaskanie, alpakoterapia alpaki terapia, alpaki wojewódstwo łódzkie, ' },
+      { hid: 'robots', name: 'robots', content: 'index, follow' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

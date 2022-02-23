@@ -1,30 +1,7 @@
 <template>
-  <div class="container my-5">
-    <h1>Miłość do <span style="color: #e0b8aa">alpak</span></h1>
-    <hr/>
-    <p>
-      Łódzkie Alpaki to Lenek, Puszkin, Vito i Draco - cztery wyjątkowe alpaki. Dlaczego wyjątkowe?
-    <div class="about-flex-number">
-      <img class="mr-3" src="~assets/svg/1.svg"/>
-      <p class="mb-2">
-        <b>Tworząc</b> nasze stado postawiliśmy na jakość zwierząt.
-      </p>
-    </div>
-    <div class="about-flex-number mt-4">
-      <img class="mr-3" src="~assets/svg/2.svg"/>
-      <p class="mb-2">
-        <b>Nasze</b> chłopaki to alpaki wyselekcjonowane z bardzo dobrych, polskich hodowli, z predyspozycjami do pracy z ludźmi.
-      </p>
-    </div>
-    <div class="about-flex-number mt-4">
-      <img class="mr-3" src="~assets/svg/3.svg"/>
-      <p class="mb-2">
-        <b>Nie </b>każda alpaka nadaje się na ludzkiego towarzysza.
-      </p>
-    </div>
-    <div class="mt-4" >
-
-      <div class="row my-5">
+  <div class="container my-3 my-lg-5">
+    <div class="mt-4">
+      <div class="row my-3 my-lg-5">
         <div class="col-12 col-md-6">
           <img src="~assets/img/alpaki_02.jpg" alt="" class="img-fluid"
                style="border-radius: 10px; max-height: 450px;width: 100%; object-fit: cover;">
@@ -34,12 +11,30 @@
           <hr/>
           Sprawić, by ludzie dużo się uśmiechali. &#128512;<br/>
           Uśmiech to ogromna energia.
-          <br >
+          <br>
           <br/>
           <p>
-            Odpowiednio przeprowadzona socjalizacja i czas, <br class="d-none d-lg-block"/>który wciąż poświęcamy chłopakom przygotował ich do spotkań z Wami.
+            Odpowiednio przeprowadzona socjalizacja i czas, <br class="d-none d-lg-block"/>który wciąż poświęcamy
+            chłopakom przygotował ich do spotkań z Wami.
           </p>
         </div>
+      </div>
+    </div>
+
+    <!--Milosc do alpak-->
+    <div>
+      <div class="text-left text-lg-center">
+        <h1>O<span style="color: #e0b8aa"> nas</span></h1>
+        <p style="color:#7e7e7e;">Łódzkie Alpaki to Lenek, Puszkin, Vito i Draco - cztery wyjątkowe alpaki. Dlaczego
+          wyjątkowe?</p>
+      </div>
+      <hr/>
+      <p class="text-left text-lg-center">Tworząc nasze stado postawiliśmy na jakość zwierząt. Nasze chłopaki to alpaki wyselekcjonowane z bardzo
+        dobrych, polskich hodowli, z
+        predyspozycjami do pracy z
+        ludźmi. Odpowiednio przeprowadzona socjalizacja i czas, który wciąż poświęcamy chłopakom
+        przygotował ich do spotkań z Wami.</p>
+
       </div>
     </div>
   </div>
@@ -54,33 +49,61 @@ export default {
   },
   head() {
     return {
-      title: 'O nas - Łódzkie alpaki',
+      title: 'Poznaj nas bliżej - Łódzkie alpaki',
       meta: [
         {charset: 'utf-8'},
         {name: 'viewport', content: 'width=device-width, initial-scale=1'},
         {
           hid: 'description',
           name: 'description',
-          content: 'Łódzkie alpaki'
-        }
+          content: 'Tworząc nasze stado postawiliśmy na jakość zwierząt. Nasze chłopaki to alpaki wyselekcjonowane z bardzo dobrych, polskich hodowli, z predyspozycjami do pracy z ludźmi. '
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          content: 'Spotkanie z alpakami, głaskanie alpak, godzina z alpakami, alpaki w łodzi, łódzkie alpaki, lodz alpaki, alpaki dla dzieci, spotkanie z alpakami dla dzieci, alpaki cudowne'
+        },
+        { hid: 'og:title', name: 'og:title', content: 'Poznaj nas bliżej - Łódzkie alpaki' },
+        { hid: 'og:image', name: 'og:description', content: 'Tworząc nasze stado postawiliśmy na jakość zwierząt. Nasze chłopaki to alpaki wyselekcjonowane z bardzo dobrych, polskich hodowli, z predyspozycjami do pracy z ludźmi.' },
       ],
+      link: [
+        {
+          rel: 'canonical',
+          href: 'https://lodzkiealpaki.pl/' + this.$route.path
+        }
+      ]
     }
   }
 }
 </script>
 
-<style>
+<style scoped>
+.card {
+  border-radius: 10px;
+}
+
 @media (min-width: 992px) {
   .about-flex-number {
     display: flex;
-    align-items: end;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card {
+    max-width: 18rem !important;
   }
 }
 
 @media (max-width: 992px) {
   .about-flex-number {
-    display: flex;
+    display: block;
     align-items: center;
+
+  }
+
+  .card {
+    width: 100%;
   }
 }
 </style>

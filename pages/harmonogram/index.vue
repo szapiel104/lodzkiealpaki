@@ -8,16 +8,30 @@
 export default {
   head() {
     return {
-      title: 'Harmonogram - Pływanie na zdrowie',
+      title: 'Skontaktuj się z nami',
       meta: [
         {charset: 'utf-8'},
         {name: 'viewport', content: 'width=device-width, initial-scale=1'},
         {
           hid: 'description',
           name: 'description',
-          content: 'Pływanie na zdrowie'
-        }
+          content: 'Potrzebujesz wsparcia? Po prostu wybierz temat kontaktu i skorzystaj z formularza kontaktowego, zadzwoń lub przyjedź do nas.'
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          content: 'Spotkanie z alpakami, głaskanie alpak, godzina z alpakami, alpaki w łodzi, łódzkie alpaki, lodz alpaki, alpaki dla dzieci, spotkanie z alpakami dla dzieci, alpaki cudowne'
+        },
+        { hid: 'og:title', name: 'og:title', content: 'Skontaktuj się z nami' },
+        { hid: 'og:image', name: 'og:description', content: 'Potrzebujesz wsparcia? Po prostu wybierz temat kontaktu i skorzystaj z formularza kontaktowego, zadzwoń lub przyjedź do nas.' },
+
       ],
+      link: [
+        {
+          rel: 'canonical',
+          href: 'https://lodzkiealpaki.pl/' + this.$route.path
+        }
+      ]
     }
   }
 }

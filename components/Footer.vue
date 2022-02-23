@@ -3,7 +3,7 @@
     <footer class="footer py-5 bg-light footer-light">
       <div class="container px-5">
         <div class="row gx-5 align-items-center text-center">
-          <div class="col-12 small">Copyright © lodzkiealpkai.pl {{ currentDate.getFullYear() }}</div>
+          <div class="col-12 small">Copyright © lodzkiealpaki.pl {{ currentDate.getFullYear() }}</div>
           <div class="col-12 small">Created by <b>SuroCrave</b></div>
           <div class="col-12 mt-3">
             <a href="https://www.facebook.com/Łódzkie-Alpaki-109025450888240" target="_blank">

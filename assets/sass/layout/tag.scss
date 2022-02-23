@@ -6,6 +6,7 @@
   font-weight: 500;
   padding: 10px 12px;
   border-radius: 7px;
+  background: #e0b8aa;
 
   &.normal {
     background-color: #e0b8aa;
@@ -36,4 +37,18 @@
       }
     }
   }
+}
+
+.bg-norepeat {
+  overflow: hidden;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  -ms-background-size: cover;
+  background-size: cover;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
 }
