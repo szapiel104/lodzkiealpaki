@@ -91,7 +91,7 @@ export default {
           content: 'Spotkanie z alpakami, głaskanie alpak, godzina z alpakami, alpaki w łodzi, łódzkie alpaki, lodz alpaki, alpaki dla dzieci, spotkanie z alpakami dla dzieci, alpaki cudowne'
         },
         { hid: 'og:title', name: 'og:title', content: 'Łódzkie alpaki - głaskanie, przytulanie, spacery i alpakoterapia' },
-        { hid: 'og:image', name: 'og:description', content: 'Poznaj wyjątkowe łódzkie alpaki. Lenek, Puszkin, Vito i Draco. Spotkaj się z nami na miejscu, w domu lub w placówce edukacyjnej!' },
+        { hid: 'og:description', name: 'og:description', content: 'Poznaj wyjątkowe łódzkie alpaki. Lenek, Puszkin, Vito i Draco. Spotkaj się z nami na miejscu, w domu lub w placówce edukacyjnej!' },
       ],
       link: [
         {

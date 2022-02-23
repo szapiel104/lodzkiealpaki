@@ -56,7 +56,7 @@ export default {
           content: 'Spotkanie z alpakami, głaskanie alpak, godzina z alpakami, alpaki w łodzi, łódzkie alpaki, lodz alpaki, alpaki dla dzieci, spotkanie z alpakami dla dzieci, alpaki cudowne'
         },
         { hid: 'og:title', name: 'og:title', content: 'Skontaktuj się z nami' },
-        { hid: 'og:image', name: 'og:description', content: 'Potrzebujesz wsparcia? Po prostu wybierz temat kontaktu i skorzystaj z formularza kontaktowego, zadzwoń lub przyjedź do nas.' },
+        { hid: 'og:description', name: 'og:description', content: 'Potrzebujesz wsparcia? Po prostu wybierz temat kontaktu i skorzystaj z formularza kontaktowego, zadzwoń lub przyjedź do nas.' },
 
       ],
       link: [

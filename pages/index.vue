@@ -8,7 +8,6 @@
 <!--      </div>-->
 <!--    </div>-->
     <div class="container">
-
       <div class="row my-3 my-lg-5 d-flex justify">
         <div class="col-12 col-md-6">
           <img src="~assets/img/alpaki_03.jpg"
@@ -95,7 +94,7 @@ export default {
           content: 'łódzki alpaki, alpaki głaskanie, alpakoterapia, alpaki, terapia, alpaki wojewódstwo łódzkie, alpaki cudowne, cudaki alpaki, wspaniałe alpaki'
         },
         { hid: 'og:title', name: 'og:title', content: 'Łódzkie alpaki - głaskanie, przytulanie, spacery i alpakoterapia' },
-        { hid: 'og:image', name: 'og:description', content: 'Poznaj wyjątkowe łódzkie alpaki. Lenek, Puszkin, Vito i Draco. Spotkaj się z nami na miejscu, w domu lub w placówce edukacyjnej!' },
+        { hid: 'og:description', name: 'og:description', content: 'Poznaj wyjątkowe łódzkie alpaki. Lenek, Puszkin, Vito i Draco. Spotkaj się z nami na miejscu, w domu lub w placówce edukacyjnej!' },
       ],
       link: [
         {

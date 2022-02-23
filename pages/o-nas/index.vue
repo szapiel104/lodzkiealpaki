@@ -64,7 +64,7 @@ export default {
           content: 'Spotkanie z alpakami, głaskanie alpak, godzina z alpakami, alpaki w łodzi, łódzkie alpaki, lodz alpaki, alpaki dla dzieci, spotkanie z alpakami dla dzieci, alpaki cudowne'
         },
         { hid: 'og:title', name: 'og:title', content: 'Poznaj nas bliżej - Łódzkie alpaki' },
-        { hid: 'og:image', name: 'og:description', content: 'Tworząc nasze stado postawiliśmy na jakość zwierząt. Nasze chłopaki to alpaki wyselekcjonowane z bardzo dobrych, polskich hodowli, z predyspozycjami do pracy z ludźmi.' },
+        { hid: 'og:description', name: 'og:description', content: 'Tworząc nasze stado postawiliśmy na jakość zwierząt. Nasze chłopaki to alpaki wyselekcjonowane z bardzo dobrych, polskich hodowli, z predyspozycjami do pracy z ludźmi.' },
       ],
       link: [
         {
