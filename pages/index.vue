@@ -48,7 +48,7 @@
                 <l-tile-layer url="http://{s}.tile.osm.org/{z}/{x}/{y}.png"></l-tile-layer>
                 <l-marker :lat-lng="[51.6932394,19.4031224]">
                   <l-popup><a
-                    href="https://www.google.pl/maps/place/Wsp%C3%B3lna+12A,+95-054+Ksawer%C3%B3w/@51.693102,19.4008092,741m/data=!3m1!1e3!4m5!3m4!1s0x471a35d346fe9a33:0x9921f674dd8e6ff7!8m2!3d51.693102!4d19.4029979"
+                    href="https://www.google.pl/maps/place/%C5%81%C3%B3dzkie+Alpaki/@51.6931712,19.4030835,330m/data=!3m1!1e3!4m5!3m4!1s0x471a35c96214d0ab:0xca361ba8136eaef1!8m2!3d51.6931494!4d19.4029914"
                     target="_blank">Przejdź do lokalizacji</a></l-popup>
                 </l-marker>
               </l-map>
