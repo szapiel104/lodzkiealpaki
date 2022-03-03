@@ -49,7 +49,7 @@
                 <l-marker :lat-lng="[51.6932394,19.4031224]">
                   <l-popup><a
                     href="https://www.google.pl/maps/place/%C5%81%C3%B3dzkie+Alpaki/@51.6931712,19.4030835,330m/data=!3m1!1e3!4m5!3m4!1s0x471a35c96214d0ab:0xca361ba8136eaef1!8m2!3d51.6931494!4d19.4029914"
-                    target="_blank">Przejdź do lokalizacji</a></l-popup>
+                    target="_blank" rel=”nofollow”>Przejdź do lokalizacji</a></l-popup>
                 </l-marker>
               </l-map>
             </no-ssr>

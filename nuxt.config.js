@@ -3,7 +3,7 @@ export default {
   head: {
     title: 'lodzkiealpaki',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'pl'
     },
     meta: [
       { charset: 'utf-8' },
