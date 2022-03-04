@@ -11,7 +11,7 @@
           <br/>
           <br/>
           <b>Adres</b><br/>
-          ul. Wspólna 12A,<br/> Ksawerów -  1,5km od Ikei.
+          ul. Wspólna 12A,<br/> Ksawerów -  1,5 km od Ikea
           <br/>
           <br/>
           <b>E-mail</b><br/> lodzkiealpaki@gmail.com
@@ -23,7 +23,7 @@
       <div class="col-12 col-md-7 col-lg-push-3 mt-3">
         <iframe
           src="https://docs.google.com/forms/d/e/1FAIpQLSfy9sffR-lOEcVqFFZAkXB6QvRlXzz3hmolF9i473qI1Qjpgg/viewform?embedded=true"
-          width="100%" height="1150" frameborder="0" marginheight="0" marginwidth="0">Ładuję…
+          width="100%" height="1250" frameborder="0" marginheight="0" marginwidth="0">Ładuję…
         </iframe>
       </div>
     </div>

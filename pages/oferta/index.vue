@@ -2,6 +2,11 @@
   <div>
     <div class="container my-3 my-lg-5">
       <div class="row px-0 mx-0 mb-5">
+        <div class="col-12">
+          <h1>Łódzkie alpaki - cennik</h1>
+          <hr/>
+          <br/>
+        </div>
         <div class="col-12 col-md-6">
           <div>
             <img src="~assets/img/alpaki_04.jpg" alt="" class="img-fluid"
@@ -9,7 +14,7 @@
           </div>
         </div>
         <div class="col-12 col-md-6 my-lg-auto mt-4 mt-lg-0">
-          <h1>Godzina <span style="color: #e0b8aa">z alpakami</span></h1>
+          <h3>Godzina <span style="color: #e0b8aa">z alpakami</span></h3>
           <hr/>
           <p class="mt-3 mb-2">Wyjątkowa godzina z alpakami to:</p>
           <p class="mb-1">- poznanie <a href="https://www.instagram.com/lodzkiealpaki/"
@@ -32,7 +37,7 @@
       </div>
       <div class="row px-0 mx-0 mb-5">
         <div class="col-12 col-md-6 my-lg-auto mt-4 mt-lg-0">
-          <h1>Wizyta alpak <span style="color: #e0b8aa">u Was</span></h1>
+          <h3>Wizyta alpak <span style="color: #e0b8aa">u Was</span></h3>
           <hr/>
           <p>Możemy odwiedzić Was z alpakami w domu podczas wizyty prywatnej lub na przyjęciu urodzinowym.
             Organizujemy
@@ -56,7 +61,7 @@
                style="border-radius: 10px; max-height: 450px;width: 100%; object-fit: cover;">
         </div>
         <div class="col-12 col-md-6 my-lg-auto mt-4 mt-lg-0">
-          <h1>Ważne, <span style="color: #e0b8aa">pamiętaj</span></h1>
+          <h3>Ważne, <span style="color: #e0b8aa">pamiętaj</span></h3>
           <hr/>
           <p>- Płatność na miejscu got&oacute;wką lub blikiem. W przypadku deszczu lub silnego wiatru spotkanie zostaje
             odwołane.</p>
@@ -83,12 +88,12 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: 'Możemy odwiedzić Was z alpakami w domu podczas wizyty prywatnej, na przyjęciu urodzinowym lub zapraszamy do nas! Znajdziesz u nas bogaty pakiet spotkań. '
+          content: 'Możemy odwiedzić Was z alpakami w domu podczas wizyty prywatnej, na przyjęciu urodzinowym lub zapraszamy do nas! Znajdziesz u nas bogaty pakiet spotkań. Nasz cennik.'
         },
         {
           hid: 'keywords',
           name: 'keywords',
-          content: 'Spotkanie z alpakami, głaskanie alpak, godzina z alpakami, alpaki w łodzi, łódzkie alpaki, lodz alpaki, alpaki dla dzieci, spotkanie z alpakami dla dzieci, alpaki cudowne'
+          content: 'Spotkanie z alpakami, cennik głaskanie alpak, godzina z alpakami, alpaki w łodzi, łódzkie alpaki, lodz alpaki, alpaki dla dzieci, spotkanie z alpakami dla dzieci, alpaki cudowne'
         },
         { hid: 'og:title', name: 'og:title', content: 'Łódzkie alpaki - głaskanie, przytulanie, spacery i alpakoterapia' },
         { hid: 'og:description', name: 'og:description', content: 'Poznaj wyjątkowe łódzkie alpaki. Lenek, Puszkin, Vito i Draco. Spotkaj się z nami na miejscu, w domu lub w placówce edukacyjnej!' },
