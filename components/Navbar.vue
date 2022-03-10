@@ -25,12 +25,13 @@
 </template>
 <style lang="scss">
 .logo-navbar {
-  max-width: 120px;
+  max-width: 150px;
   @media(max-width: 992px){
     max-width: 105px;
+    padding-left: 0 !important;
   }
   position: absolute;
-  top: -15px;
+  top: -17px;
 }
 .a-link-btn .nav-link{
   width: 100%;
@@ -49,7 +50,7 @@
   }
   background-color: #fff !important;
   border-bottom: 1px solid #f2f6fc;
-  padding: 1rem 0;
+  padding: 1.5rem 0;
 
   .a-link-menu a {
     font-size: 17px;
@@ -81,7 +82,7 @@
   #nav-collapse {
     position: absolute;
     width: 100%;
-    top: 67px;
+    top: 87px;
     background: white;
     left: 0px;
     padding: 0 20px;

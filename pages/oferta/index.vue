@@ -2,10 +2,10 @@
   <div>
     <div class="container my-3 my-lg-5">
       <div class="row px-0 mx-0 mb-5">
-        <div class="col-12">
+        <div class="col-12 mt-3">
           <h1>Łódzkie alpaki - cennik</h1>
           <hr/>
-          <br/>
+          <br class="d-none d-lg-block"/>
         </div>
         <div class="col-12 col-md-6">
           <div>
