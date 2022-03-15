@@ -29,7 +29,7 @@ export default {
       link: [
         {
           rel: 'canonical',
-          href: 'https://lodzkiealpaki.pl/' + this.$route.path
+          href: 'https://lodzkiealpaki.pl' + this.$route.path
         }
       ]
     }
