@@ -1,7 +1,7 @@
 # lodzkiealpaki
 
 ## Build Setup
-
+Node 13.13.0
 ```bash
 # install dependencies
 $ npm install
