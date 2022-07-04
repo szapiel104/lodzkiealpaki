@@ -46,7 +46,7 @@
                 </svg> 1-2 osoby: 200 zł za całe spotkanie</p>
                 <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
                   <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
-                </svg> powyżej 2 osób: 40 zł od osoby</p>
+                </svg> powyżej 2 osób: każda kolejna 40 zł od osoby</p>
                 <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
                   <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
                 </svg> dzieci do 1 roku: BEZPŁATNIE</p>
