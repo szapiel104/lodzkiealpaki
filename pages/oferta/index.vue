@@ -7,69 +7,109 @@
           <hr/>
           <br class="d-none d-lg-block"/>
         </div>
-        <div class="col-12 col-md-6">
-          <div>
-            <img src="~assets/img/alpaki_04.jpg" alt="" class="img-fluid"
-                 style="border-radius: 10px; max-height: 450px;width: 100%; object-fit: cover;">
-          </div>
-        </div>
-        <div class="col-12 col-md-6 my-lg-auto mt-4 mt-lg-0">
-          <h3>Godzina <span style="color: #e0b8aa">z alpakami</span></h3>
-          <hr/>
-          <p class="mt-3 mb-2">Wyjątkowa godzina z alpakami to:</p>
-          <p class="mb-1">- poznanie <a href="https://www.instagram.com/lodzkiealpaki/"
-                                        target="_blank">@lodzkiealpaki</a></p>
-          <p class="mb-1">- karmienie, głaskanie i przytulanie</p>
-          <p class="mb-1">- kr&oacute;tki spacer z alpakami po okolicy</p>
-          <p class="mb-1">- kawa / herbata w cenie</p>
-          <br/>
-          <p>
-            Jest to Wasza godzina na wyłączność, tylko Wy i <a href="https://www.instagram.com/lodzkiealpaki/"
-                                                               target="_blank">@lodzkiealpaki</a>
-          </p>
-<!--          <div class="price-box mb-2">-->
-<!--            1-2 osoby: 200 zł<br/>-->
-<!--          </div>-->
-<!--          <div class="price-box mb-2">-->
-<!--            powyżej 2 osób: 40zł od osoby <br/>-->
-<!--          </div>-->
-<!--          <div class="price-box mb-2">-->
-<!--            dzieci do 1 roku bezpłatnie-->
+        <div class="col-12">
+            <div class="comparison mt-0 px-0">
+              <table>
+                <thead>
+                <tr class="compare-row">
+                  <th></th>
+                  <th class="price-info">
+                    <div class="price-now"><b>Spotkanie ze spacerem</b><br/>
 
-<!--          </div>-->
-
-            <div class="card  mb-3 box-shadow" style="width: 100%;">
-              <div class="card-header font-weight-bold">Cennik</div>
-              <div class="card-body">
-                <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
-                  <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
-                </svg> 1-2 osoby: 200 zł za całe spotkanie</p>
-                <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
-                  <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
-                </svg> powyżej 2 osób: każda kolejna 40 zł od osoby</p>
-                <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
-                  <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
-                </svg> dzieci do 1 roku: BEZPŁATNIE</p>
-              </div>
+                      <div class="price-now"> <b class="more" style="color: #d3b0a4">200 zł</b> <br class="d-block d-lg-none"/>/ do 2 osób</div>
+                    </div>
+                  </th>
+                  <th class="price-info">
+                    <div class="price-now"><b>Spotkanie w zagrodzie</b>
+                      <br/>
+                      <div class="price-now"> <b class="more" style="color: #d3b0a4">70 zł</b> <br class="d-block d-lg-none"/>/ do 2 osób</div>
+                    </div>
+                  </th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <td></td>
+                  <td colspan="3">Czas trwania</td>
+                </tr>
+                <tr>
+                  <td>Czas trwania</td>
+                  <td>60 min</td>
+                  <td>30 min</td>
+                </tr>
+                <tr>
+                  <td> </td>
+                  <td colspan="3">Dodatkowa osoba</td>
+                </tr>
+                <tr class="compare-row">
+                  <td>Dodatkowa osoba</td>
+                  <td>+ 40 zł za każdą kolejną osobę</td>
+                  <td>+ 30 zł za każdą kolejną osobę</td>
+                </tr>
+                <tr>
+                  <td> </td>
+                  <td colspan="3">Spotkanie na wyłączność</td>
+                </tr>
+                <tr>
+                  <td>Spotkanie na wyłączność</td>
+                  <td><svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M9.75 15.25L7 12.5 6 13.499 9.75 17.25 18 8.999 17 8z"></path></svg></td>
+                  <td><svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M9.75 15.25L7 12.5 6 13.499 9.75 17.25 18 8.999 17 8z"></path></svg></td>
+                </tr>
+                <tr>
+                  <td> </td>
+                  <td colspan="3">Głaskanie, przytulanie, robienie zdjęć, karmienie smakołykami</td>
+                </tr>
+                <tr class="compare-row">
+                  <td>Głaskanie, przytulanie, robienie zdjęć, karmienie smakołykami</td>
+                  <td><svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M9.75 15.25L7 12.5 6 13.499 9.75 17.25 18 8.999 17 8z"></path></svg></td>
+                  <td><svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M9.75 15.25L7 12.5 6 13.499 9.75 17.25 18 8.999 17 8z"></path></svg></td>
+                </tr>
+                <tr>
+                  <td> </td>
+                  <td colspan="3">Spacer z alpakami</td>
+                </tr>
+                <tr>
+                  <td>Spacer z alpakami</td>
+                  <td><svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M9.75 15.25L7 12.5 6 13.499 9.75 17.25 18 8.999 17 8z"></path></svg></td>
+                  <td><svg viewBox="0 0 18 18" fill="currentColor" width="18" height="18" class="G6tDp"><path d="M5 9L5 10 14 10 14 9z"></path></svg></td>
+                </tr>
+                <tr>
+                  <td> </td>
+                  <td colspan="3">Kawa/herbata/woda</td>
+                </tr>
+                <tr class="compare-row">
+                  <td>Kawa/herbata/woda</td>
+                  <td><svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M9.75 15.25L7 12.5 6 13.499 9.75 17.25 18 8.999 17 8z"></path></svg></td>
+                  <td><svg viewBox="0 0 18 18" fill="currentColor" width="18" height="18" class="G6tDp"><path d="M5 9L5 10 14 10 14 9z"></path></svg></td>
+                </tr>
+                </tbody>
+              </table>
             </div>
         </div>
       </div>
+
       <div class="row px-0 mx-0 mb-5">
         <div class="col-12 col-md-6 my-lg-auto mt-4 mt-lg-0">
           <h3>Wizyta alpak <span style="color: #e0b8aa">u Was</span></h3>
           <hr/>
           <p>Możemy odwiedzić Was z alpakami w domu podczas wizyty prywatnej lub na przyjęciu urodzinowym.
             Organizujemy
-            również wyjazdy na spotkania w placówkach edukacyjnych. Napisz do nas, podeślemy Ci ofertę.
+            również wyjazdy na spotkania w placówkach edukacyjnych.
+
+            <br/>
+            <br/>
+            <b-button size="sm" class="my-2 a-link-btn normal" type="primary" variant="primary" to="/kontakt">
+              <span class="mr-1">Napisz do nas</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+                   class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+              </svg>
+            </b-button>
             <br/>
             <br/>
           </p>
-          <div class="card mb-3 box-shadow" style="width: 100%;">
-            <div class="card-header font-weight-bold">Cennik</div>
-            <div class="card-body">
-              <p class="card-text"> od 400 zł (wycena indywidualna)</p>
-            </div>
-          </div>
+
         </div>
         <div class="col-12 col-md-6 mt-4 mt-lg-0">
           <img src="~assets/img/alpaki_03.jpg" alt="" class="img-fluid"
@@ -139,9 +179,207 @@ export default {
 </script>
 
 <style scoped>
+
 .box-shadow{
   box-shadow: 0 0.25rem 0.75rem rgb(0 0 0 / 5%);;
 }
+.comparison {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  font: 13px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  padding: 10px;
+}
+
+.comparison table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: auto;
+}
+
+.comparison td,
+.comparison th {
+  border-right: 1px solid #E8E8E8;
+  empty-cells: show;
+  padding: 10px;
+  border-top: 1px solid #E8E8E8;
+  border-bottom: 1px solid #E8E8E8;
+  color: #162D3D;
+  font-size: 15px;
+}
+
+.comparison tbody tr:nth-child(odd) {
+  display: none;
+}
+
+.comparison .compare-row {
+  background: #F7F7F7;
+}
+
+.fa-check {
+  color: #69C7F1;
+}
+
+.comparison th {
+  font-weight: normal;
+  padding: 0;
+  border-top: 1px solid #E8E8E8;
+  border-left: 1px solid #E8E8E8;
+  border-bottom: 0px solid #E8E8E8;
+}
+
+.comparison tr td:first-child {
+  text-align: left;
+  padding: 15px;
+  border-left: 1px solid #E8E8E8;
+  border-top: 1px solid #E8E8E8;
+}
+
+.comparison .product,
+.comparison .tl {
+  color: #FFF;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.comparison .tl2 {
+  border-right: 0;
+}
+
+.comparison .product {
+  background: #69C7F1;
+  height: 40px;
+  font-size: 1.6em;
+}
+
+.comparison .price-info {
+  padding: 15px;
+}
+
+.comparison .price-now,
+.comparison .price-now span {
+  color: #162D3D;
+  font-size: 18px;
+}
+.comparison .price-now .more,
+.comparison .price-now span {
+  color: #162D3D;
+  font-size: 25px;
+}
+
+@media(max-width: 992px){
+  .comparison .price-now,
+  .comparison .price-now span {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+.comparison .price-now span {
+  font-size: 36px;
+  color: #545454;
+}
+
+.comparison .price-now p {
+  font-size: 14px;
+  text-align: center;
+  line-height: 16px;
+  display: inline;
+}
+
+.comparison .price-buy {
+  background: #EC671A;
+  padding: 10px 20px;
+  font-size: 14px;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  margin: 5px 0 10px 0;
+  letter-spacing: 1px;
+  cursor: pointer;
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
+}
+
+.comparison .price-buy:hover {
+  background: #E84D00;
+}
+
+@media screen and (min-width: 721px) and (max-width: 1000px) {
+  .table_ul li {
+    letter-spacing: 0px;
+  }
+  .comparison .price-now span {
+    font-size: 32px;
+  }
+  .comparison .price-now p {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .table_ul {
+    padding: 0px;
+  }
+  .comparison table{
+    border-top: 1px solid #E8E8E8;
+  }
+  .table_ul li {
+    font-size: 10px;
+    line-height: 16px;
+    padding: 3px 0;
+  }
+  .comparison {
+    max-width: 100%;
+  }
+  .comparison td:first-child,
+  .comparison th:first-child {
+    display: none;
+  }
+  .comparison tbody tr:nth-child(odd) {
+    display: table-row;
+    background: #F7F7F7;
+  }
+  .comparison .row {
+    background: #FFF;
+  }
+  .comparison td,
+  .comparison th {
+    border: 1px solid #CCC;
+    padding: 10px;
+  }
+  .price-info {
+    border-top: 0 !important;
+    padding: 10px 0 !important;
+  }
+  .price-info p {
+    line-height: 8px;
+    font-size: 8px !important;
+  }
+  .comparison .compare-row {
+    background: #ffffff;
+  }
+  .comparison .price-now p {
+    display: block;
+  }
+  .comparison .price-now span {
+    font-size: 24px;
+  }
+  .comparison .qbse {
+    font-size: 1.2em;
+  }
+  .comparison td {
+    font-size: 14px;
+  }
+  .comparison th {
+    font-size: 14px;
+  }
+}
+
 @media (min-width: 992px) {
   .about-flex-number {
     display: flex;
@@ -155,4 +393,5 @@ export default {
     align-items: center;
   }
 }
+
 </style>
