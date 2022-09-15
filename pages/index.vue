@@ -10,7 +10,7 @@
     <div class="container">
       <div class="row my-3 my-lg-5 d-flex justify">
         <div class="col-12 col-md-6">
-          <img src="~assets/img/alpaki_03.jpg"
+          <img src="~assets/img/alpaki_07.jpg"
                alt="Lodzkie Alpaki" class="img-alpak img-fluid"
                style="">
         </div>
@@ -95,6 +95,7 @@ export default {
         },
         { hid: 'og:title', name: 'og:title', content: 'Łódzkie alpaki - głaskanie, przytulanie, spacery i alpakoterapia' },
         { hid: 'og:description', name: 'og:description', content: 'Poznaj wyjątkowe łódzkie alpaki. Lenek, Puszkin, Vito i Draco. Spotkaj się z nami na miejscu, w domu lub w placówce edukacyjnej!' },
+        { hid: 'og:image', name: 'og:image', content: 'https://lodzkiealpaki.pl/alpaki_07.jpg' },
       ],
       link: [
         {
